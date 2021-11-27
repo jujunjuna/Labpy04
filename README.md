@@ -10,16 +10,16 @@
  penjelasan :\
  list1 = ['physics','chemistry',1997,2000]\
  print list [0]\
- karena dimulai dari 0 maka outputnya adalah physics
+ karena dimulai dari 0 maka outputnya adalah physics\
 
-2. contoh mengiris list
+2. contoh mengiris list \
 ![list1](list/mengiris_list_1.png) \
 penjelasan :\
 my_list = ['p','r','o','g','r','a','m','i','z'] \
-print my_list[2:5]
-disini di minta element ke 2 sampai ke 5 
+print my_list[2:5] \
+disini di minta element ke 2 sampai ke 5 \ 
 maka outputnya o,g,r \
-![list2](list/mengiri_list_2.png) \
+![list2](list/mengiris_list_2.png) \
 my_list = ['p','r','o','g','r','a','m','i','z']
 print(my_list[:-5]) \
 disini di minta elemen pertama sampai elemen 4 maka hasilnya : 'p','r','o','g' \
@@ -29,13 +29,13 @@ my_list = ['p','r','o','g','r','a','m','i','z']
 print(my_list[5:])
 disini diminta elemen ke 5 sampai terakhir maka hasil nya 'a','m','i','z'\
 
-![list](list/mengiris_list_4) \
+![list](list/mengiris_list_4.png) \
 my_list = ['p','r','o','g','r','a','m','i','z']
 print(my_list[:]) \
 disini di minta semua element maka hasil nya
  'p','r','o','g','r','a','m','i','z' \
 
- 3. mengubah list \
+3. mengubah list \
  ![list1](list/mengubah_list_1.png) \
 odd = [2,4,6,8] \
 odd[0] = 1 \
@@ -48,7 +48,7 @@ odd [1:4] = [3,5,7] \
 print(odd) \
 maka hasilnya ['1','3','5','7'] \
 element ke 1 adalah 4 digantikan dengan 3 element ke 2 adalah 6 digantikan dengan 5 element ke 3 adalah 8 digantikan dengan 7 \
-![list2](list/mengubah_list_2)  \
+![list2](list/mengubah_list_2.png)  \
 
 menambah element, bisa menggunakan append\
 contoh\
@@ -56,5 +56,5 @@ odd = [1,3,5] \
 odd.append(7) \
 print(odd) \
 list dari odd di tambah 7 maka hasilnya : \
-['1','3','5','7']
+['1','3','5','7'] \
 ![list3](list/mengubah_list_3.png)
