@@ -5,11 +5,11 @@
  •Untuk mengakses nilai dalam daftar, gunakan tanda kurung siku untuk mengiris bersama dengan indeks atau indeks untuk mendapatkan nilai yang tersedia pada indeks tersebut.\
  • Indeks dimulai dari 0. Jadi, daftar yang memiliki 5 elemen akan memiliki indeks dari 0 ke 4.\
  • Indeks harus bilangan bulat.
-1. contoh cara mengakses element dari list 
+1. contoh cara mengakses element dari list\
 ![list](list/mengakses_element.png)
  penjelasan :\
  list1 = ['physics','chemistry',1997,2000]\
  print list [0]\
- karena dimulai dari 0 maka outputnya adalah physics\
+ karena dimulai dari 0 maka outputnya adalah physics
 
 
