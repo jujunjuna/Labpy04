@@ -10,7 +10,7 @@
  penjelasan :\
  list1 = ['physics','chemistry',1997,2000]\
  print list [0]\
- karena dimulai dari 0 maka outputnya adalah physics\
+ karena dimulai dari 0 maka outputnya adalah physics
 
 2. contoh mengiris list \
 ![list1](list/mengiris_list_1.png) \
@@ -63,8 +63,9 @@ list dari odd di tambah 7 maka hasilnya : \
 odd = [1,3,5,7] \
 odd.extend([9,11,13]) \
 print(odd) \
-hasilnya adalah : ['1','3','5','7','9','11','13'] \
-![list4](mengubah_list_4.png)
+hasilnya adalah : ['1','3','5','7','9','11','13']\
+![list4](list/mengubah_list_4.png)
+
 
 #bisa juga menggunakan operator + untuk menggabungkan 2 list\
 odd = [1,3,5]\
@@ -75,5 +76,33 @@ maka hasilnya adalah : [1,3,5,9,7,5]\
 #untuk mengulang beberapa kali element pada list bisa menggunakan operator * \
 print (["re"]*3) \
 hasilnya:["re","re","re"] \
-![list6](list/mengubah_list_6)
+![list6](list/mengubah_list_6.png) \
 
+
+4. REMOVE ELEMENT \
+#menghapus item dari list menggunakan del \
+Kita dapat menghapus satu atau lebih item dari daftar menggunakan kata kunci del. \
+Dia bahkan dapat menghapus daftar seluruhnya \
+contoh menghapus satu element : \
+my_list = ['p','r','o','b','l','e','m'] \
+del my_list[2] \
+print(my_list) \
+maka ouputnya akan : ['p','r','b','l','e','m'] \
+![list7](list_)
+
+
+5. TUPPLE
+ Tuple sama sperti list,hanya saja pada tuple datanya bersifat tetap atau tidak dapat di ubah ubah.\
+ Contoh : \
+ ![tupple](tupple/tupple.png) \
+
+
+6. Dictionary \
+Dicttionari adalah koleksi pasangan item item berasosiasi dimana setiap pasangan terdiri dari suatu key dan value. \
+pasangan key-value ini ditulis sebagai key:value.\
+dictionaries ditulis dipisahkan koma dalam kurung kurawal. \
+contoh : \
+![dictionary](dictionary/dictionary.png) \
+
+Untuk menghapus bisa menggunakan:\
+![delete](dictionary/delete_dictionary.png) \
